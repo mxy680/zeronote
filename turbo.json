@@ -9,6 +9,9 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "dist/**"]
     },
-    "lint": {}
+    "reset": {
+      "dependsOn": ["^reset"],
+      "cache": false
+    }
   }
 }

@@ -7,6 +7,11 @@
             "label": "Dev",
             "type": "shell",
             "command": "turbo dev"
+        },
+        {
+            "label": "Reset",
+            "type": "shell",
+            "command": "turbo reset"
         }
     ]
 }

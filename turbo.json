@@ -1,5 +1,5 @@
 {
-  "pipeline": {
+  "tasks": {
     "dev": {
       "dependsOn": ["^dev"],
       "cache": false,

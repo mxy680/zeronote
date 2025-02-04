@@ -1,14 +1,17 @@
 {
 	"name": "zeronote",
 	"private": true,
-	"workspaces": ["apps/*", "packages/*"],
+	"packageManager": "pnpm@9.1.1",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
 	"scripts": {
-	  "dev": "turbo run dev",
-	  "build": "turbo run build",
-	  "lint": "turbo run lint"
+		"dev": "turbo run dev",
+		"build": "turbo run build",
+		"lint": "turbo run lint"
 	},
 	"devDependencies": {
-	  "turbo": "^latest"
+		"turbo": "^2.4.0"
 	}
-  }
-  
+}
